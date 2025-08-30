@@ -1,0 +1,118 @@
+@import "tailwindcss";
+.mainWidth{
+    width: 60%;
+    margin: auto;
+}
+@media (max-width: 1600px) {
+    .mainWidth{
+        width: 70%;
+    }
+}
+@media (max-width: 1250px) {
+    .mainWidth{
+        width: 90%;
+    }
+}
+@media (max-width: 621px) {
+    .busiCard{
+        width: 100%;
+    }
+    .tCard{
+        width: 100%;
+    }
+}
+@media (max-width: 763px) {
+    .bannerCon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .bannerCon p{
+        width: 30ch;
+    }
+    .container{
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .para{
+        width: 10ch;
+    }
+}
+@media (max-width: 883px) {
+    .navLinks{
+        display: none;
+    }
+    .menuIcon{
+        display: block;
+    }
+    .header{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .productCards{
+        justify-content: center;
+        gap: 20px;
+    }
+    .pImage{
+        width: 90vw;
+    }
+    .tCards{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-height: 996px) {
+    .banner{
+        height: max-content;
+        padding: 60px 0;
+    }
+    .sImage{
+        height: 440px;
+    }
+    .darkcard{
+        height: max-content;
+        padding-bottom: 40px;
+    }
+    .business{
+        height:max-content ;
+        padding: 30px 0;
+    }
+    .testimonial{
+        height: max-content ;
+    }
+    .shop{
+        height: max-content ;
+    }
+}
+@media (max-width: 1000px){
+    .cHero{
+        height: 200vh;
+    }
+}
+@media (max-width: 969px) {
+    .sImage{
+        display: none;
+    }
+    .container{
+        width: 100vw;
+        position: static;
+    }
+    .shop{
+        position: static;
+        width: 100vw;
+    }
+    .con{
+        width: 100%;
+    }
+}
+.para{
+    width: 50ch;
+}
+@media (max-width: 992px) {
+    .navnav{
+        position: static;
+    }
+}
